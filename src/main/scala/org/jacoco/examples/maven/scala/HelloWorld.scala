@@ -9,5 +9,4 @@ object HelloWorld {
 			"Hello World!";
 		}
 	}
-
 }
