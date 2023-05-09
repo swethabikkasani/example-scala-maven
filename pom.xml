@@ -49,7 +49,7 @@
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
 				<artifactId>scala-maven-plugin</artifactId>
-				<version>3.3.2</version>
+				<version>4.8.1</version>
 				<executions>
 					<execution>
 						<goals>
@@ -58,11 +58,6 @@
 						</goals>
 					</execution>
 				</executions>
-				<configuration>
-					<args>
-						<arg>-g:line</arg>
-					</args>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
