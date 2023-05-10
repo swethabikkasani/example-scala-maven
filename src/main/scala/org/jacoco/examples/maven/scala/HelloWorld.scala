@@ -1,13 +1,13 @@
-import scala.io.StdIn.readLine
+package org.jacoco.examples.maven.scala
 
-object helloInteractive {
-
-  def main(args: Array[String]) = {
-    println("Hello from Scala!")
-    println("Please enter your name:")
-    val name = readLine()
-
-    println("Hi, " + name + "!" + "\nWelcome to the world of Scala")
-  }
+object HelloWorld {
+  
+	def message(bigger : Boolean) = {
+		if (bigger) {
+			"Hello Universe!";
+		} else {
+			"Hello World!";
+		}
+	}
 
 }
